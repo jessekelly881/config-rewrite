@@ -1,0 +1,10 @@
+Xft.dpi:        132
+Xft.antialias:  true
+
+URxvt.scrollBar: false
+URxvt.internalBorder: 8
+URxvt.cursorBlink: 1
+URxvt.cursorUnderline: 1
+URxvt*font: xft:DejaVu Sans Mono:size=6
+urxvt*depth: 20
+urxvt*background: rgba:0000/0000/0200/c800
