@@ -2,12 +2,18 @@ alias c="clear"
 alias t="touch"
 alias e="$EDITOR"
 alias ed="emacs --daemon"
+alias g="git"
+alias gi="git init"
+alias ga="git add"
+alias gs="git status"
 alias r="ranger"
 alias o="rifle" #Open
 alias s="sudo"
 alias h='history'
 alias hs='history | grep'
 alias k="pkill"
+alias y="yay"
+alias yi="yay -S"
 alias q="exit"
 alias Q="echo \"Shutting Down..\"; sudo -k shutdown now"
 
@@ -31,7 +37,7 @@ alias Ei="$EDITOR $HOME/Dropbox/env/scripts/boot.sh"
 #Er: ranger
 #ER: rifle
 
-#Ec: Edit clipboard in editor. 
+#Ec: Edit clipboard in editor.
 alias Ec="xclip -i -selection clipboard -o >> /tmp/clipEdit; $EDITOR /tmp/clipEdit; cat /tmp/clipEdit | xclip -selection clipboard"
 
 #start
@@ -42,7 +48,7 @@ alias Cpass="openssl rand -base64 20"
 alias Clabel="figlet"
 
 #web stuff
-alias serve="python -m SimpleHTTPServer 8000" 
+alias serve="python -m SimpleHTTPServer 8000"
 alias ipg="curl ipinfo.io/ip"
 alias ipl="ifconfig | awk '$1 == \"inet\" {print $2}'"
 alias up="ping 8.8.8.8"
@@ -67,6 +73,3 @@ fi
 alias email="neomutt"
 alias calander="calcurse"
 alias alarm=". ~/Dropbox/env/scripts/alarm.sh"
-
-
-
