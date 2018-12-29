@@ -1,0 +1,12 @@
+[global]
+  sort = yes #Sort by urgency
+  indicate_hidden = yes
+  allow_markup = true
+  format = "%s\n%b"
+  padding = 8
+  geometry = "300x5-30+20"
+  horizontal_padding = 8
+  font = DejaVu Sans Mono 6
+  monitor = 0
+  startup_notification = true
+  word_wrap = yes
