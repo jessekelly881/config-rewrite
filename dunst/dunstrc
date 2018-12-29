@@ -1,7 +1,7 @@
 [global]
   sort = yes #Sort by urgency
   indicate_hidden = yes
-  allow_markup = true
+  markup = true
   format = "%s\n%b"
   padding = 8
   geometry = "300x5-30+20"
@@ -10,3 +10,4 @@
   monitor = 0
   startup_notification = true
   word_wrap = yes
+  forground: #000000
