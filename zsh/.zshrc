@@ -1,3 +1,4 @@
+source "$HOME/.cache/wal/colors.sh"
 ZSH_TMUX_AUTOSTART=true
 ZSH_TMUX_AUTOCONNECT=true
 ZSH_THEME="terminalparty"
