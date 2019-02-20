@@ -1,0 +1,5 @@
+i3, ~/.config/i3/config
+aliases, ~/.config/zsh/aliases.sh
+shortcuts, ~/.config/assets/configs.csv
+rss, ~/.config/assets/urls
+polybar, ~/.config/polybar/config

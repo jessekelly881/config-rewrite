@@ -22,7 +22,7 @@ background = white
 foreground = ${colors.background}
 linecolor = ${colors.secondary}
 
-modules-left = date cpu battery exchange
+modules-left = date cpu battery wifi exchange
 
 [module/date]
 format-background =${xrdb:color1}
@@ -66,14 +66,12 @@ format-margin = 0
 
 [module/wifi]
 type = custom/script
-exec = echo "$(iwconfig wlp2s0 | grep ESSID | awk -F: '{gsub (" ", "", $0);print $2}' | tr -d \" | tr -s ' ')($(nmap -sP -T4 192.168.1.*  | grep report | wc -l))"
+exec = nmcli device wifi list | grep "*" | awk '//{print $2}'
 format-background = ${xrdb:color5}
 label =  %output%
-interval = 60
+interval = 10
 format-padding = 1
 format-margin = 0
-click-left = urxvt -e "nmtui"
-click-right = urxvt -e "wavemon"
 
 [module/exchange]
 type = custom/script

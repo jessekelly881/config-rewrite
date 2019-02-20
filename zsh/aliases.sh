@@ -16,6 +16,16 @@ alias y="yay"
 alias yi="yay -S"
 alias q="exit"
 alias Q="echo \"Shutting Down..\"; sudo -k shutdown now"
+alias x="sudo systemctl suspend-then-hibernate"
+
+alias mount=". /home/jesse/.config/scripts/mount.sh"
+alias cat="bat"
+alias du="ncdu --color dark"
+alias help="tldr"
+alias qconf=". ~/.config/scripts/quickconfig.sh"
+
+alias class=". ~/.config/scripts/classes.sh"
+alias news="newsboat"
 
 #paths
 alias home="cd $USER_HOME"
@@ -24,7 +34,7 @@ alias docs="cd $DOCS"
 
 #frequent commands
 alias hs='history | grep '
-alias note="$EDITOR $DOCS/notes/$(date +'%F').org"
+alias note="$EDITOR /home/jesse/docs/notes.org"
 
 #edit
 alias Ea="$EDITOR $CONFIG/zsh/aliases.sh" #Edit Aliases
@@ -51,7 +61,7 @@ alias Clabel="figlet"
 alias serve="python -m SimpleHTTPServer 8000"
 alias ipg="curl ipinfo.io/ip"
 alias ipl="ifconfig | awk '$1 == \"inet\" {print $2}'"
-alias up="ping 8.8.8.8"
+alias up="ping -q -w 1 -c 1 `ip r | grep -m 1 default | cut -d ' ' -f 3` >/dev/null && echo 'Connected' || echo 'Not Connected'"
 
 # grc - better colors
 if [[ -x `which grc` ]]; then
@@ -73,3 +83,10 @@ fi
 alias email="neomutt"
 alias calander="calcurse"
 alias alarm=". ~/Dropbox/env/scripts/alarm.sh"
+
+#functions
+# cd (){
+#     dirs=$(find . -mindepth 1 -maxdepth 1 -type d -printf '%f\n')
+#     p=$(echo "$dirs" | fzf --height 40% --color=bw --reverse --border --prompt "> ")
+#     cd "$p"
+# }
