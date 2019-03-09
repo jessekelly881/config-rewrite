@@ -1,7 +1,7 @@
 alias c="clear"
 alias t="touch"
 alias e="$EDITOR"
-alias ed="emacs --daemon"
+alias ed="emacs --daemon --no-window-system -fg '$color1' &"
 alias g="git"
 alias gi="git init"
 alias ga="git add"
@@ -18,6 +18,7 @@ alias q="exit"
 alias Q="echo \"Shutting Down..\"; sudo -k shutdown now"
 alias x="sudo systemctl suspend-then-hibernate"
 
+alias done='notify-send -u critical "The Thing Is Done"'
 alias mount=". /home/jesse/.config/scripts/mount.sh"
 alias cat="bat"
 alias du="ncdu --color dark"

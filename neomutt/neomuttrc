@@ -1,0 +1,31 @@
+set mbox_type   = Maildir
+set sendmail    = /usr/bin/msmtp
+
+set folder      = ~/.mail
+set spoolfile   = "+INBOX"
+set mbox        = "+[Gmail]/All Mail"
+set postponed   = "+[Gmail]/Drafts"
+unset record
+
+set sort     = threads
+set sort_aux = reverse-last-date-received
+set sort_re
+
+color normal white default
+
+
+set quit             # don't ask, just do!!~]
+
+mailboxes +INBOX
+
+macro index D \
+    "<save-message>+[Gmail]/Trash<enter>" \
+        "move message to the trash"
+
+macro index S \
+    "<save-message>+[Gmail]/Spam<enter>" \
+        "mark message as spam"~
+
+macro index A \
+    "<tag-pattern>~N<enter><tag-prefix><clear-flag>N<untag-pattern>.<enter>" \
+    "mark all new as read"

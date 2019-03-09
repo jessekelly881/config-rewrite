@@ -12,6 +12,7 @@ urxvtd &
 unclutter -idle 2 -jitter 10 -visible &
 
 # general
-emacs --daemon &
+emacs --daemon --no-window-system -fg "$color1" &
 pulseaudio &
 dropbox &
+conky

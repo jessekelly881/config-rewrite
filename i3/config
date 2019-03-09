@@ -8,6 +8,8 @@ new_window none
 
 font pango:monospace 6
 
+bindsym --release Print exec "scrot ~/media/images/screenshots/$(date --iso-8601='seconds').png -m -e 'xclip -selection c -t image/png < $f'; notify-send 'Screen Captured'"
+
 # meta keys
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute

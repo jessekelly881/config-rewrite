@@ -8,9 +8,9 @@ alert = ${xrdb:color3}
 
 [bar/bar]
 font-0 = "DejaVu Sans Mono:pixelsize=11;2"
-font-1 = "Font Awesome 5 Free:style=Regular:pixelsize=9;2"
-font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=9;2"
-font-3 = "Font Awesome 5 Brands:style=Regular:pixelsize=9;2"
+font-1 = "Font Awesome 5 Free:style=Regular:pixelsize=9;1"
+font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=9;1"
+font-3 = "Font Awesome 5 Brands:style=Regular:pixelsize=9;1"
 monitor = eDP-1
 width = 99%
 height = 16
@@ -22,7 +22,7 @@ background = white
 foreground = ${colors.background}
 linecolor = ${colors.secondary}
 
-modules-left = date cpu battery wifi exchange
+modules-left = keyboard packages hd cpu battery wifi exchange email date
 
 [module/date]
 format-background =${xrdb:color1}
@@ -57,9 +57,9 @@ format-margin = 0
 
 [module/battery]
 type = custom/script
-exec = acpi | awk -F', ' '{print $2}' | sed 's/%//'
+exec = acpi | sed 's/%//' | awk -F', ' '{if ($2 >= 90) print "", $2; else if ($2 >= 70 && $2 < 90) print "", $2; else if ($2 >= 50 && $2 < 75) print "", $2; else if ($2 >= 25 && $2 < 50) print "", $2; else print "", $2}'
 format-background = ${xrdb:color4}
-label =  %output%
+label = %output%
 interval = .5
 format-padding = 1
 format-margin = 0
@@ -109,9 +109,9 @@ click-left = notify-send $(calander -r2 | grep '*' | sed 's/*//')
 
 [module/email]
 type = custom/script
-exec = echo $(ls -1 Mail/Gmail/INBOX/new | wc -l)$(ps -e | grep offlineimap | awk '/offline/{print " "}')
+exec = echo $(ls -1 ".mail/INBOX/new" | wc -l | awk '{if ($0 == 0) print "", $0; else print "", $0}')$(ps -e | grep offlineimap | awk '/offline/{print " "}')
 format-background = ${xrdb:color10}
-label =  %output%
+label =  %output%
 format-padding = 1
 interval = 5
 
@@ -146,3 +146,19 @@ format-padding = 1
 interval = 1
 label = %output%
 format-background = ${xrdb:color4}
+
+[module/packages]
+type = custom/script
+exec = pacman -Qe | wc -l
+format-padding = 1
+interval = 20
+label =  %output%
+format-background = ${xrdb:color4}
+
+[module/hd]
+type = custom/script
+exec = df -H | awk '/home/{print $4}'
+format-padding = 1
+interval = 20
+label =  %output%
+format-background = ${xrdb:color6}

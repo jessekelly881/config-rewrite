@@ -17,4 +17,6 @@ plugins=(
   zsh-autosuggestions
   zsh-history-substring-search
   zsh-syntax-highlighting
+  docker
+  django
 )

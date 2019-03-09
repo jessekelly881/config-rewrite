@@ -1,19 +1,20 @@
 [general]
-ui = ttyui
 accounts = Gmail
 
 [Account Gmail]
-localrepository = Gmail-Local
-remoterepository = Gmail-Remote
+localrepository = Local
+remoterepository = Remote
 
-[Repository Gmail-Local]
+[Repository Local]
 type = Maildir
-localfolders = ~/mail/Gmail
+localfolders = ~/.mail
 
-[Repository Gmail-Remote]
-type = Gmail
+[Repository Remote]
+type = IMAP
+remotehost = imap.gmail.com
 remoteuser = kellyjesse881@gmail.com
 remotepass = 2315755#jungle
-realdelete = no
+ssl = yes
 maxconnections = 3
-sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+realdelete = no
+cert_fingerprint = 4cf1c747da7f62335273a00328e92b8f3cd9cd2cb5832ef58fdc78da11e84f245dde107b5b666f7230b5a705b2e3e9d28bd9b91322ea6267eee9b55e1737fa6d

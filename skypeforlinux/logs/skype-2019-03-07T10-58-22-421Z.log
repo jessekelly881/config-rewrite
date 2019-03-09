@@ -1,0 +1,29 @@
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][User] User is Admin: false, detection ran: true
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Updater] initialized with an ECS config provider.
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Updater] initialized.
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Updater] start() called.
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Updater] Update interval set to 14400000
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Updater] Starting unexplicit update check as the updater was started.
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Updater] Checking for updates, explicit check: false
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Updater] Platform updater feed URL not set.
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Updater] Setting update feed url to: https://get.skype.com/s4l-update?version=8.41.76.43&os=linux&ring=preview&app=s4l&t=1551956302435
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Updater] Checking for update.
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][LinuxAutoUpdater] Checking for update
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][LinuxAutoUpdater] Update not found.
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Updater] Update not found.
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO]Skype logging system information:
+============================================================
+  Version 1431/8.41.76.43/
+  Ring: preview
+  Operating System: Linux, linux 4.20.10-arch1-1-ARCH
+  Architecture: x64
+  Total Memory: 3827.15234375 MB
+  Free Memory: 117.91796875 MB
+  Load average: 2.68310546875,2.2392578125,1.55419921875
+  Device Id: 6649572a921c3c87dc9c49f87912517e
+  CPU Topology: [{"model":"Intel(R) Celeron(R) CPU  N2820  @ 2.13GHz","speed":2356,"times":{"user":40923800,"nice":1160200,"sys":14097700,"idle":102642400,"irq":1184100}},{"model":"Intel(R) Celeron(R) CPU  N2820  @ 2.13GHz","speed":2393,"times":{"user":41459500,"nice":1172900,"sys":14133700,"idle":48362500,"irq":996000}}]
+============================================================
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Application] checking-for-update. Explicit check = false
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Application] update-not-available. Explicit check = false
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Application] Commandline arguments: {"_":[],"executed-from":"/home/jesse","pid":6190}
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Application] Calling app.quit

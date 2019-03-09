@@ -1,0 +1,765 @@
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][User] User is Admin: true, detection ran: false
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Updater] initialized with an ECS config provider.
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Updater] initialized.
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Updater] start() called.
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Updater] Update interval set to 14400000
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Updater] Starting unexplicit update check as the updater was started.
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Updater] Checking for updates, explicit check: false
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Updater] Platform updater feed URL not set.
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Updater] Setting update feed url to: https://get.skype.com/s4l-update?version=8.41.76.43&os=linux&ring=preview&app=s4l&t=1551956219858
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Updater] Checking for update.
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][LinuxAutoUpdater] Checking for update
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][LinuxAutoUpdater] Update not found.
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Updater] Update not found.
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO]Skype logging system information:
+============================================================
+  Version 1431/8.41.76.43/
+  Ring: preview
+  Operating System: Linux, linux 4.20.10-arch1-1-ARCH
+  Architecture: x64
+  Total Memory: 3827.15234375 MB
+  Free Memory: 236.29296875 MB
+  Load average: 1.92919921875,1.94677734375,1.3984375
+  Device Id: 6649572a921c3c87dc9c49f87912517e
+  CPU Topology: [{"model":"Intel(R) Celeron(R) CPU  N2820  @ 2.13GHz","speed":2084,"times":{"user":40611400,"nice":1159800,"sys":14001300,"idle":102447100,"irq":1175000}},{"model":"Intel(R) Celeron(R) CPU  N2820  @ 2.13GHz","speed":2030,"times":{"user":41120700,"nice":1172600,"sys":14042900,"idle":48154600,"irq":991000}}]
+============================================================
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Application] checking-for-update. Explicit check = false
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Application] update-not-available. Explicit check = false
+[Thu, 07 Mar 2019 10:56:59 GMT][INFO][Application] Commandline arguments: {"_":[],"executed-from":"/home/jesse","pid":4194}
+[Thu, 07 Mar 2019 10:57:00 GMT][INFO][Application] T1 files copied: false
+[Thu, 07 Mar 2019 10:57:00 GMT][INFO][AutoStartLinux] Created file /home/jesse/.config/autostart/skypeforlinux.desktop
+[Thu, 07 Mar 2019 10:57:00 GMT][INFO][File Interceptor] Registering protocol interceptors
+[Thu, 07 Mar 2019 10:57:00 GMT][INFO][WindowInterceptor] Registering new window interceptor.
+[Thu, 07 Mar 2019 10:57:00 GMT][INFO][EcsConfig] Downloading ECS Config
+[Thu, 07 Mar 2019 10:57:00 GMT][INFO][HttpsRequest] [6ed075] Sending request to GET https://a.config.skype.com/config/v1/SkypeElectronWrapper/1431_8.41.76.43?ConfigOption=preview&clientId=6649572a921c3c87dc9c49f87912517e, Proxy: false, Attempt: 1/1
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][MainWindow] Loading application.
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][HttpsRequest] [31b5cb] Sending request to POST https://pipe.skype.com/Collector/3.0/, Proxy: false, Attempt: 1/3
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][FileLogRetentionUtility] Listing existing log files in  /home/jesse/Dropbox/.config/skypeforlinux/logs
+[Thu, 07 Mar 2019 10:57:01 GMT][ERROR][FileLogRetentionUtility] Error listing logs to delete. Error: ENOENT: no such file or directory, scandir '/home/jesse/Dropbox/.config/skypeforlinux/skylib'
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][JsExceptionHandler] Main window navigated
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][MainIpcEventHandlers] Hiding sharing indicator
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][HttpsRequest] [6ed075] Got response: [200] OK. Duration: 539ms
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][EcsConfig] ECS Config successfully downloaded.
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][SystemIdle] Setting up system idle time check
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][Updater] Non Admin user startup check enabled: true
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][Updater] Update interval set to 21600000, rescheduling update checks
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][Updater] Checking for updates, explicit check: false
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][Updater] Setting update feed url to: https://get.skype.com/s4l-update?version=8.41.76.43&os=linux&ring=preview&app=s4l&t=1551956221546
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][Updater] Checking for update.
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][Application] checking-for-update. Explicit check = false
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][LinuxAutoUpdater] Checking for update
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][LinuxAutoUpdater] Update not found.
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][Updater] Update not found.
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][Application] update-not-available. Explicit check = false
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][Application] ECS Config loaded
+[Thu, 07 Mar 2019 10:57:01 GMT][INFO][HttpsRequest] [31b5cb] Got response: [200] OK. Duration: 831ms
+[Thu, 07 Mar 2019 10:57:02 GMT][INFO][HttpsRequest] [568487] Sending request to POST https://pipe.skype.com/Collector/3.0/, Proxy: false, Attempt: 1/3
+[Thu, 07 Mar 2019 10:57:02 GMT][INFO][PreLoad] Loading: file:///Index.html
+[Thu, 07 Mar 2019 10:57:03 GMT][INFO][WindowInterceptor] Registering new window interceptor.
+[Thu, 07 Mar 2019 10:57:07 GMT][INFO][HttpsRequest] [568487] Got response: [200] OK. Duration: 5839ms
+[Thu, 07 Mar 2019 10:57:08 GMT][WARN][app] [#01f1280b-S] [WARN] [RootToolsManager] registerListeners: RootToolsManagerDelegate missing setNativeLoggingEventCallback method
+[Thu, 07 Mar 2019 10:57:09 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.AppUpgrade] Last app launch time: Thu Mar 07 2019 10:57:09 GMT+0000 (UTC)
+[Thu, 07 Mar 2019 10:57:09 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.Startup] SkypeId missing in Storage
+[Thu, 07 Mar 2019 10:57:09 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [QsoProvider] setIsFirstTimeSignIn: true isDeletionEnabledOnFirstTimeSignIn: true
+[Thu, 07 Mar 2019 10:57:09 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [QsoProvider] removing all accounts
+[Thu, 07 Mar 2019 10:57:09 GMT][INFO][KeychainStore] Deleting credentials, service: SkypeAccountProviderService:Qso.
+[Thu, 07 Mar 2019 10:57:09 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [InterruptHandlerProvider] setIsFirstTimeSignIn: true isDeletionEnabledOnFirstTimeSignIn: false
+[Thu, 07 Mar 2019 10:57:09 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MigratedCredentialsProvider] setIsFirstTimeSignIn: true isDeletionEnabledOnFirstTimeSignIn: false
+[Thu, 07 Mar 2019 10:57:09 GMT][ERROR][KeychainStore] Deleting credentials failed. Error:  Error: The name org.freedesktop.secrets was not provided by any .service files
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.ConsoleSink] initialized and paused
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][WindowBase] Window is ready to show.
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.ConsoleSink] resumed
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [T1Migration] Failed to fetch T1 credentials, reason: Error: credentials not available
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.Startup] AppBootstrapperWeb._fallbackToLoginElectron reason: NoSkypeIdFound
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.Startup] WelcomeScreen waiting for ECS config with timeout: 1000
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.ResponsiveWidthStore] New width: 460 rootViewId: [pii<u1>] causeId: d772f191
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.ResponsiveWidthStore] New Responsive Width: 1 rootViewId: [pii<u1>] causeId: d772f191
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.ResponsiveWidthStore] New height: 524 rootViewId: [pii<u1>] causeId: d772f191
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.ResponsiveWidthStore] New orientation from width update: 1 window dimensions, w: 461 h: 549 rootViewId: [pii<u1>] causeId: d772f191
+[Thu, 07 Mar 2019 10:57:10 GMT][WARN][app] [#ffffffff-S] [WARN] [JS.SISU] [QsoProvider] failed to remove all accounts: [pii<E...>]
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.ResponsiveWidthStore] New width: 461 rootViewId: [pii<u1>] causeId: 10f2f3b7
+[Thu, 07 Mar 2019 10:57:10 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.ResponsiveWidthStore] New height: 549 rootViewId: [pii<u1>] causeId: 10f2f3b7
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.GenericUnsafe] ECS - Config fetch complete
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.Startup] WelcomeScreen waiting for ECS config timed out: false
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.Startup] ServiceStateStore: Setting statup UI state to 1
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentWillMount()
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] screenType: ExtraSmall
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.RootAppView] RootAppView componentWillUnmount
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.StatusBarManager] StatusBarManager: Popping style for RootAppView
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidRender()
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidMount() isFirstTimeSignIn: true isAppAutoStartEnabled: true isAppLaunchMinimizedEnabled: false
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] the first page is: InitialAnimation
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] updating account list...
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] fetching accounts from all providers...
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] fetching accounts for Sso
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] Sso found 0 account(s)
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] fetching accounts for Qso
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] Qso found 0 account(s)
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] fetching accounts for InterruptHandler
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][KeychainStore] Getting stored credentials from keytar, service: SkypeAccountProviderService:InterruptHandler.
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] fetching accounts for MigratedCredentials
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][KeychainStore] Getting stored credentials from keytar, service: SkypeAccountProviderService:MigratedCredentials.
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] InitialAnimation IN animation starting
+[Thu, 07 Mar 2019 10:57:11 GMT][ERROR][KeychainStore] Getting stored credentials failed. Error:  Error: The name org.freedesktop.secrets was not provided by any .service files
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [InterruptHandlerProvider] provider getAccounts error: [pii<E...>]
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][KeychainStore] Getting stored credentials from keytar, service: LogoutToken.
+[Thu, 07 Mar 2019 10:57:11 GMT][ERROR][KeychainStore] Getting stored credentials failed. Error:  Error: The name org.freedesktop.secrets was not provided by any .service files
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MigratedCredentialsProvider] provider getAccounts error: [pii<E...>]
+[Thu, 07 Mar 2019 10:57:11 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] MigratedCredentials found 0 account(s)
+[Thu, 07 Mar 2019 10:57:11 GMT][ERROR][KeychainStore] Getting stored credentials failed. Error:  Error: The name org.freedesktop.secrets was not provided by any .service files
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][KeychainStore] Deleting credentials, service: LogoutToken.
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] InterruptHandler found 0 account(s)
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] 0 unique account(s) were found (0 duplicate)
+[Thu, 07 Mar 2019 10:57:12 GMT][ERROR][KeychainStore] Deleting credentials failed. Error:  Error: The name org.freedesktop.secrets was not provided by any .service files
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [AccountProviderManager] found 0 account(s) in total after blacklist processing
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] account list returned with size:
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidUpdate()
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidRender()
+[Thu, 07 Mar 2019 10:57:12 GMT][WARN][app] [#ffffffff-S] [WARN] [JS.ExceptionHandling] Unhandled rejected SyncTask. Error:  [pii<E...>]
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] InitialAnimation IN animation complete
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] will attempt to advance  from: InitialAnimation
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] InitialAnimation does not have an OUT animation
+[Thu, 07 Mar 2019 10:57:12 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] will be: GetStarted was: InitialAnimation
+[Thu, 07 Mar 2019 10:57:13 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidUpdate()
+[Thu, 07 Mar 2019 10:57:13 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidRender()
+[Thu, 07 Mar 2019 10:57:13 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] GetStarted does not have an IN animation
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: a9a36e66
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: a9a36e66
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 1
+ x: 0
+ y: 0
+ causeId: a9a36e66
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 1
+ x: undefined
+ y: undefined
+ causeId: a9a36e66
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: a9a36e66
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: a9a36e66
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: a9a36e66
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation stop() causeId: a9a36e66
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation callback
+ finished: true
+ causeId: a9a36e66
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: 3d364345
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: 3d364345
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 1
+ x: 0
+ y: 0
+ causeId: 3d364345
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 0.9
+ x: undefined
+ y: undefined
+ causeId: 3d364345
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: 3d364345
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: 3d364345
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: 3d364345
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation stop() causeId: 3d364345
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation callback
+ finished: true
+ causeId: 3d364345
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: 0f87f19d
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: 0f87f19d
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 0.9
+ x: 0
+ y: 0
+ causeId: 0f87f19d
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 1
+ x: undefined
+ y: undefined
+ causeId: 0f87f19d
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: 0f87f19d
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: 0f87f19d
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: 0f87f19d
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] will attempt to advance  from: GetStarted
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] GetStarted does not have an OUT animation
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] will be: PlainSiSu was: GetStarted
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Web view building, will show: SignInPage
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA WebView is still loading
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAPerf] load start time Thu Mar 07 2019 10:57:17 GMT+0000 (UTC)
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAPerf] UAID: d0773c9bd11d4fb89f8ac767225cf180
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidUpdate()
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidRender()
+[Thu, 07 Mar 2019 10:57:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] PlainSiSu does not have an IN animation
+[Thu, 07 Mar 2019 10:57:19 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] onNavigationStateChange did not give a URL, not likely an issue
+[Thu, 07 Mar 2019 10:57:20 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: aea56481
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: aea56481
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 1
+ x: 0
+ y: 0
+ causeId: aea56481
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 1
+ x: undefined
+ y: undefined
+ causeId: aea56481
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: aea56481
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: aea56481
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: aea56481
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation callback
+ finished: true
+ causeId: aea56481
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: c7c05849
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: c7c05849
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 1
+ x: 0
+ y: 0
+ causeId: c7c05849
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 1
+ x: undefined
+ y: undefined
+ causeId: c7c05849
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: c7c05849
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: c7c05849
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: c7c05849
+[Thu, 07 Mar 2019 10:57:25 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation callback
+ finished: true
+ causeId: c7c05849
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: a00e5af8
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: a00e5af8
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 1
+ x: 0
+ y: 0
+ causeId: a00e5af8
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 1
+ x: undefined
+ y: undefined
+ causeId: a00e5af8
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: a00e5af8
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: a00e5af8
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: a00e5af8
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation callback
+ finished: true
+ causeId: a00e5af8
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: b5435191
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: b5435191
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 1
+ x: 0
+ y: 0
+ causeId: b5435191
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 1
+ x: undefined
+ y: undefined
+ causeId: b5435191
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: b5435191
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: b5435191
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: b5435191
+[Thu, 07 Mar 2019 10:57:27 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation callback
+ finished: true
+ causeId: b5435191
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: 809c9dee
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: 809c9dee
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 1
+ x: 0
+ y: 0
+ causeId: 809c9dee
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 0.9
+ x: undefined
+ y: undefined
+ causeId: 809c9dee
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: 809c9dee
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: 809c9dee
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: 809c9dee
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation stop() causeId: 809c9dee
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation callback
+ finished: true
+ causeId: 809c9dee
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: ed5b2b30
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: ed5b2b30
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 0.9
+ x: 0
+ y: 0
+ causeId: ed5b2b30
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 1
+ x: undefined
+ y: undefined
+ causeId: ed5b2b30
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: ed5b2b30
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: ed5b2b30
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: ed5b2b30
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] Sign in button pressed
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] app entry start tracking: Manual
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] will attempt to advance  from: PlainSiSu
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA Preload timer is disabled
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] PlainSiSu does not have an OUT animation
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] will be: MsaWebView was: PlainSiSu
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Current page SignInPage has loaded, duration:
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAPerf] load finish time Thu Mar 07 2019 10:57:28 GMT+0000 (UTC)
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidUpdate()
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidRender()
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] MsaWebView IN animation starting
+[Thu, 07 Mar 2019 10:57:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] MsaWebView IN animation complete
+[Thu, 07 Mar 2019 10:57:38 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:57:38 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: SignIn_NextButton_Pressed
+[Thu, 07 Mar 2019 10:57:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:57:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] User has switched to Sign Up from Sign In
+[Thu, 07 Mar 2019 10:57:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA WebView is still loading
+[Thu, 07 Mar 2019 10:57:44 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:57:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:46 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Current page SignUpPage has loaded, duration: 4854
+[Thu, 07 Mar 2019 10:57:46 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:46 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:46 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:57:46 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: Signup_MemberNamePage
+[Thu, 07 Mar 2019 10:57:54 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<[...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: SignUp_NextButton_Pressed
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:55 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:56 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:56 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:57:56 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:57:56 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: Signup_PasswordPage
+[Thu, 07 Mar 2019 10:58:01 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:01 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:01 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:01 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<[...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:58:02 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: Signup_ProfileAccrualPage
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:08 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:08 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:08 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:58:08 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: Signup_VerificationPage
+[Thu, 07 Mar 2019 10:58:08 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:58:08 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: Account_SendSMSOtt_API
+[Thu, 07 Mar 2019 10:58:08 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.ScenarioTracker] Id: 1dc67d58-f400-45be-8cf7-3e0c5ffcd042; Name: AppStartupIntent
+	Context_step_name_started: 0
+	Context_AppState: 1
+	Context_StartupContext: Unknown
+	Context_ColdStartup: true
+	Context_error_description: TimedOut
+	PERF_AppStartupIntent_started : 0 ms | 0 ms
+	PERF_AppStartupIntent_ColdStartup : 10324 ms | 10324 ms
+	PERF_AppStartupIntent_Phase1 : 8874 ms | 19198 ms
+	PERF_AppStartupIntent_Phase2 : 539 ms | 19737 ms
+	PERF_AppStartupIntent_failed : 59988 ms | 79725 ms (TARGET)
+	PERF_AppStartupIntent_Total : 79725 ms
+[Thu, 07 Mar 2019 10:58:09 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<[...>]
+[Thu, 07 Mar 2019 10:58:17 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<[...>]
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Application] Attempted to run second instance without secondary parameter
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][Application] Commandline arguments: {"_":[],"executed-from":"/home/jesse","pid":6190}
+[Thu, 07 Mar 2019 10:58:22 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.AppUpgrade] Last app launch time: Thu Mar 07 2019 10:58:22 GMT+0000 (UTC)
+[Thu, 07 Mar 2019 10:58:24 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<[...>]
+[Thu, 07 Mar 2019 10:58:32 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<[...>]
+[Thu, 07 Mar 2019 10:58:39 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<[...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:41 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: Signup_ProfileAccrualPage
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:58:42 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: Signup_PasswordPage
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:58:43 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: Signup_MemberNamePage
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: Signup_FinalBack_UserAction
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:58:45 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA WebView is still loading
+[Thu, 07 Mar 2019 10:58:46 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:58:46 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] oauth20_desktop.srf errored out
+[Thu, 07 Mar 2019 10:58:46 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSAOAuth] MSA has hit an error page: access_denied Description: The+user+has+denied+access+to+the+scope+requested+by+the+client+application.
+[Thu, 07 Mar 2019 10:58:46 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] will attempt to go back  from: MsaWebView
+[Thu, 07 Mar 2019 10:58:46 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] MsaWebView OUT animation starting
+[Thu, 07 Mar 2019 10:58:47 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] MsaWebView OUT animation complete
+[Thu, 07 Mar 2019 10:58:47 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] will be: PlainSiSu was: MsaWebView
+[Thu, 07 Mar 2019 10:58:47 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidUpdate()
+[Thu, 07 Mar 2019 10:58:47 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidRender()
+[Thu, 07 Mar 2019 10:58:47 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] PlainSiSu does not have an IN animation
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: 8bcf6a86
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: 8bcf6a86
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 1
+ x: 0
+ y: 0
+ causeId: 8bcf6a86
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 0.9
+ x: undefined
+ y: undefined
+ causeId: 8bcf6a86
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: 8bcf6a86
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: 8bcf6a86
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: 8bcf6a86
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation stop() causeId: 8bcf6a86
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation callback
+ finished: true
+ causeId: 8bcf6a86
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] SXButtonBase._internalUpdateButton causeId: 4fe09472
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation causeId: 4fe09472
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation _animatedValues
+ opacity: 1
+ scale: 0.9
+ x: 0
+ y: 0
+ causeId: 4fe09472
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation animationOptions
+ opacity: undefined
+ scale: 1
+ x: undefined
+ y: undefined
+ causeId: 4fe09472
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation isCustom animationOptions
+ isCustomOpacity: false
+ isCustomScale: true
+ isCustomX: false
+ isCustomY: false
+ causeId: 4fe09472
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation 
+ scaleWillChange: true
+ opacityWillChange: false
+ xWillChange: false
+ yWillChange: false
+ causeId: 4fe09472
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-u] [TRACE] [JS.SXAnimated] View.getAnimation start() causeId: 4fe09472
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] Sign in button pressed
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] app entry start tracking: Manual
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] will attempt to advance  from: PlainSiSu
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA Preload timer is disabled
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] PlainSiSu does not have an OUT animation
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] will be: MsaWebView was: PlainSiSu
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Current page SignUpPage has loaded, duration:
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidUpdate()
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [Root] componentDidRender()
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] MsaWebView IN animation starting
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] onNavigationStateChange did not give a URL, not likely an issue
+[Thu, 07 Mar 2019 10:58:48 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [RootPageFlow] MsaWebView IN animation complete
+[Thu, 07 Mar 2019 10:58:49 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:58:49 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA WebView is still loading
+[Thu, 07 Mar 2019 10:58:59 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:58:59 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: SignIn_NextButton_Pressed
+[Thu, 07 Mar 2019 10:59:06 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:59:06 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA WebView is still loading
+[Thu, 07 Mar 2019 10:59:14 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:59:14 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] [MSAOAuth] Received page navigation event via bridge: SignIn_NextButton_Pressed
+[Thu, 07 Mar 2019 10:59:15 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:59:15 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA WebView is still loading
+[Thu, 07 Mar 2019 10:59:19 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:59:19 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA WebView is still loading
+[Thu, 07 Mar 2019 10:59:22 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:23 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 10:59:25 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:26 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 10:59:26 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA WebView is still loading
+[Thu, 07 Mar 2019 10:59:27 GMT][WARN][app] [#ffffffff-S] [WARN] [JS.SISU] [MSAOAuth] Landed on an unexpected URL: [pii<h...>]
+[Thu, 07 Mar 2019 10:59:27 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:27 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:27 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:27 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:27 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:27 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:27 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:27 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:27 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:27 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 10:59:28 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] WebViewBridge invoking onMessage with: [pii<{...>]
+[Thu, 07 Mar 2019 11:14:16 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 11:14:16 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 11:14:16 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 11:14:16 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 11:14:16 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 11:14:16 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 11:14:16 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowserPage] [pii<T...>]
+[Thu, 07 Mar 2019 11:14:16 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 11:14:16 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.SISU] MSA WebView is still loading
+[Thu, 07 Mar 2019 11:14:21 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.InAppWebBrowser] InAppWebBrowser loading local page in will-navigate (not opening external browser)
+[Thu, 07 Mar 2019 11:30:07 GMT][INFO][app] [#ffffffff-S] [TRACE] [JS.DeviceUtilities] JS execution stopped, last check was 18657ms ago
